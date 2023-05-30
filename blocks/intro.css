@@ -1,0 +1,39 @@
+.intro {
+    max-width: 828px;
+    background-color: #2c2c2c;
+    display: flex; 
+    flex-direction: column;
+    color: #FFFFFF;
+    padding-left: 148px; 
+    padding-right: 304px;
+  }
+  
+  .intro__title {
+    font-size: 54px;
+    line-height: 0.89;
+    width: 100%;
+  }
+  
+  .intro__quote {
+    font-size: 24px; 
+    line-height: 1.17; 
+    font-weight: normal; 
+    width: 88%;
+  }
+  
+  .intro__quote-author {
+    text-align: end;
+    width: 88%;
+    font-size: 24px;
+    line-height: 1.17; 
+    font-weight: normal;
+    margin-top: 9px;
+  }
+  
+  .intro__text {
+    font-size: 16px; 
+    line-height: 26px; 
+    font-weight: normal;
+  }
+  
+  
