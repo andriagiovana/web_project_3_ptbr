@@ -1,17 +1,16 @@
 .intro {
-    max-width: 828px;
-    background-color: #2c2c2c;
     display: flex; 
     flex-direction: column;
-    color: #FFFFFF;
     padding-left: 148px; 
     padding-right: 304px;
+    margin: auto; 
   }
   
   .intro__title {
     font-size: 54px;
     line-height: 0.89;
     width: 100%;
+    font-weight: 900;
   }
   
   .intro__quote {
@@ -19,6 +18,7 @@
     line-height: 1.17; 
     font-weight: normal; 
     width: 88%;
+    font-weight: 400;
   }
   
   .intro__quote-author {
@@ -28,12 +28,14 @@
     line-height: 1.17; 
     font-weight: normal;
     margin-top: 9px;
+    font-weight: 400;
   }
   
   .intro__text {
     font-size: 16px; 
     line-height: 26px; 
     font-weight: normal;
+    font-weight: 400;
   }
   
   

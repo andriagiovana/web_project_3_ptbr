@@ -1,0 +1,66 @@
+.places {
+    max-width: 987px;
+    margin: auto;
+}
+
+.places-list {
+    list-style: none;
+}
+
+.places-list__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+.places-list__title {
+    width: 484px;;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.05;
+    margin: 0;
+    padding-top: 80px;
+
+}
+
+.places-list__artist {
+    margin-top: auto;
+}
+
+.places-list__artist-label {
+    color: #AAAAAA;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 14.52px;
+    font-size: 12px;
+    margin: 0;
+}
+
+.places-list__artist-name {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 0;
+
+}
+
+.places-list__image {
+    width: 100%;
+}
+
+.places-list__content {
+    display: flex;
+    flex-direction: column;  
+}
+
+.places-list__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    row-gap: 25px;
+}
+
+
+            

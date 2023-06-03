@@ -1,0 +1,56 @@
+.cover {
+    padding: 0 48px;
+    max-width: 1184px;
+    position: relative;
+} 
+
+.cover__image {
+    z-index: 0;
+}
+
+.cover__container {
+  min-height: 600px; 
+   margin: 0 auto;
+   position: relative;
+   background-image: url("../imagens/__background.png");
+   background-repeat: no-repeat;
+  }
+  
+  .overlay {
+    position: absolute;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.3s ease; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+
+ .cover__container:hover .overlay {
+    opacity: 0.8; 
+  } 
+  
+  .cover__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-top: 100px;
+  }
+
+  .cover__title {
+    font-size: 92px;
+    font-weight: 900;
+    width: 100%;
+    max-width: 656px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .cover__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 280px;
+    text-align: center;
+  }
+  
