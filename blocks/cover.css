@@ -9,10 +9,10 @@
 }
 
 .cover__container {
-   min-height: 600px; 
+   min-height: 600px;
    margin: 0 auto;
    position: relative;
-   background-image: url("../imagens/__background.png");
+   background-image: url("../imagens/campo.background.png");
    background-repeat: no-repeat;
   }
   
