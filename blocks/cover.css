@@ -9,7 +9,7 @@
 }
 
 .cover__container {
-  min-height: 600px; 
+   min-height: 600px; 
    margin: 0 auto;
    position: relative;
    background-image: url("../imagens/__background.png");
@@ -20,7 +20,7 @@
     position: absolute;
     background-color: #2A2C2F;
     opacity: 0.3;
-    transition: opacity 0.3s ease; 
+    transition: opacity 0.3s ease;
     width: 100%;
     height: 100%;
     top: 0;
