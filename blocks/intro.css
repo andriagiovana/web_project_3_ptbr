@@ -1,7 +1,7 @@
 .intro {
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    padding-left: 148px; 
+    padding-left: 148px;
     padding-right: 304px;
     margin: auto; 
   }
@@ -15,8 +15,8 @@
   }
   
   .intro__quote {
-    font-size: 24px; 
-    line-height: 1.17; 
+    font-size: 24px;
+    line-height: 1.17;
     max-width: 736px;
     font-weight: 400;
   }
