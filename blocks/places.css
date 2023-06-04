@@ -22,7 +22,6 @@
     line-height: 1.05;
     margin: 0;
     padding-top: 80px;
-
 }
 
 .places-list__artist {
@@ -34,7 +33,7 @@
     letter-spacing: 12%;
     text-transform: uppercase;
     font-weight: 400;
-    line-height: 14.52px;
+    line-height: 1.25;
     font-size: 12px;
     margin: 0;
 }
@@ -44,11 +43,11 @@
     font-size: 18px;
     margin-top: 8px;
     margin-bottom: 0;
-
 }
 
 .places-list__image {
     width: 100%;
+    max-width: 460px;
 }
 
 .places-list__content {

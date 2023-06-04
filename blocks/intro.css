@@ -10,6 +10,7 @@
     font-size: 54px;
     line-height: 0.89;
     width: 100%;
+    max-width: 828px;
     font-weight: 900;
   }
   
@@ -17,18 +18,19 @@
     font-size: 24px; 
     line-height: 1.17; 
     font-weight: normal; 
-    width: 88%;
+    max-width: 736px;
     font-weight: 400;
   }
   
   .intro__quote-author {
     text-align: end;
-    width: 88%;
     font-size: 24px;
     line-height: 1.17; 
     font-weight: normal;
     margin-top: 9px;
     font-weight: 400;
+    max-width: 720px;
+    /* width: 90% */
   }
   
   .intro__text {
@@ -36,6 +38,7 @@
     line-height: 26px; 
     font-weight: normal;
     font-weight: 400;
+    max-width: 720px;
   }
   
   

@@ -1,5 +1,6 @@
 body {
     font-family: 'inter';
+    width: fit-content;
 }
 
 .page {
@@ -14,3 +15,97 @@ body {
    -moz-text-size-adjust: 100%; 
    text-rendering: optimizeLegibility;
 }
+
+@media (max-width: 768px) { 
+    
+  .intro {
+    padding: 0;
+    margin: 10px;
+  }
+
+  .places {
+    max-width: 733px;
+  }
+
+  .places-list__item {
+    column-gap: 28px;
+    grid-template-columns: 50% 50%;
+  }
+
+  .places-list__title {
+    font-size: 42px;
+    max-width: 340px;
+  }
+
+
+  .places-list__paragraph {
+    font-size: 16px;
+    margin-right: 24px;
+  }
+
+  .places-list__image {
+    max-width: 340px;
+  }
+  
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 64px;
+  } 
+
+  .cover__title {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+    .header__logo {
+        max-width: 200px;
+        height: 51.85px;
+    }
+
+    .header__title {
+        font-size: 40px;
+    }
+
+    .header__subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .intro__title {
+        font-size: 32px;
+    }
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .places-list__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .places-list__title {
+        font-size: 32px;
+    }
+
+    .places-list__image {
+       width: 100%;
+       margin: 0;
+    }
+
+    .places-list__paragraph {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+
+    .cover__title {
+        font-size: 32px;
+    }
+
+}
+
