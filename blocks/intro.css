@@ -3,7 +3,7 @@
     flex-direction: column;
     padding-left: 148px;
     padding-right: 304px;
-    margin: auto; 
+    margin: auto;
   }
   
   .intro__title {
@@ -24,14 +24,14 @@
   .intro__quote-author {
     text-align: end;
     font-size: 24px;
-    line-height: 1.17; 
+    line-height: 1.17;
     margin-top: 9px;
     font-weight: 400;
     max-width: 720px;
   }
   
   .intro__text {
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     max-width: 720px;
