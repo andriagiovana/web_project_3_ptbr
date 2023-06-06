@@ -1,6 +1,5 @@
 .cover {
     padding: 0 48px;
-    max-width: 1184px;
     position: relative;
 } 
 
@@ -14,6 +13,7 @@
    position: relative;
    background-image: url("../imagens/campo.background.png");
    background-repeat: no-repeat;
+   background-position: center
   }
   
   .overlay {

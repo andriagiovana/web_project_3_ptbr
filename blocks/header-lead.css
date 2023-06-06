@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
     margin: auto;
 }
 
@@ -32,6 +31,5 @@
 
 .header__image {
     max-width: 984px;
-    
     width: 100%;
 }
