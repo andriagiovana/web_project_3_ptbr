@@ -14,3 +14,20 @@
    background-color: #0063D2;
 }
 
+@media (max-width: 810px) {
+   .button {
+      font-size: 16px;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 680px) {
+   .button {
+      font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+   .button { 
+      font-size: 14px; 
+  } 
+}

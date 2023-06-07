@@ -54,3 +54,33 @@
     text-align: center;
   }
   
+  @media (max-width: 810px) {
+    .cover__title { 
+      font-size: 72px; 
+    } 
+
+    .cover {
+        padding: 0;
+    }
+  }
+
+  @media (min-width: 471px) and (max-width: 680px) {
+    .cover__title {
+      font-size: 48px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    .cover__title { 
+      font-size: 32px; 
+  } 
+
+  .cover__container {
+    min-height: 300px;
+    width: 100%;
+  }
+
+  .cover {
+    padding: 0;
+  }
+  }

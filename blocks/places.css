@@ -52,13 +52,90 @@
 .places-list__content {
     display: flex;
     flex-direction: column;
+    grid-row-start: span 3;
 }
 
 .places-list__paragraph {
     font-weight: 400;
     font-size: 18px;
     row-gap: 25px;
+    padding-right: 148px; 
 }
 
+@media (min-width: 867px) and (max-width: 1050px) {
+    .places-list__paragraph {
+        padding-right: 50px;
+    }
+}
 
+@media (min-width: 681px) and (max-width: 866px) {
+
+     .places-list__title { 
+        font-size: 42px; 
+        max-width: 340px; 
+      } 
+    
+      .places-list__paragraph { 
+        font-size: 16px; 
+        padding-right: 10px;
+      } 
+    
+      .places-list__image { 
+        max-width: 340px; 
+      } 
+}
+
+@media (min-width: 471px) and (max-width: 680px) {
+
+    .places-list__item {
+        grid-template-columns: 1fr;
+      }
+  
+      .places-list__content {
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+@media screen and (max-width: 470px) {
+
+    .places-list {
+        padding: 0;
+      }
+  
+      .places-list__item { 
+          display: grid;
+          grid-template-columns: 1fr;  
+          padding: 0;
+          margin: 0;
+      } 
+  
+      .places-list__title { 
+          font-size: 32px; 
+          padding-right: 16px;
+          padding-left: 16px;
+      } 
+  
+      .places-list__artist {
+        padding-right: 16px;
+        padding-left: 16px; 
+      }
+
+      .places-list__image { 
+        width: 100%;
+        margin: auto;
+      } 
+
+      .places-list__content {
+        display: flex;
+        flex-direction: column; 
+        padding-right: 16px;
+        padding-left: 16px;
+      }
+
+      .places-list__paragraph { 
+          font-size: 16px;
+          padding-right: 0;
+      } 
+}
             

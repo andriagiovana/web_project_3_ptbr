@@ -37,4 +37,22 @@
     max-width: 720px;
   }
   
-  
+  @media (min-width: 811px) and (max-width: 1050px) {
+    .intro {
+      padding-left: 50px;
+      padding-right: 180px;
+    }
+  }
+
+  @media (max-width: 810px) {
+    .intro { 
+      padding: 0; 
+      margin: 10px; 
+    } 
+  }
+
+  @media screen and (max-width: 470px) {
+    .intro__title { 
+      font-size: 32px; 
+  } 
+  }

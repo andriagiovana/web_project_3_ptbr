@@ -33,3 +33,32 @@
     max-width: 984px;
     width: 100%;
 }
+
+@media (min-width: 471px) and (max-width: 680px) {
+    .header__title {
+        font-size: 72px;
+      }
+}
+
+@media screen and (max-width: 470px) {
+    
+    .header__logo { 
+        max-width: 200px; 
+        height: 51.85px; 
+    } 
+
+    .header__title { 
+        font-size: 40px; 
+    } 
+
+
+    .header__subtitle { 
+        font-size: 16px; 
+        line-height: 1.25; 
+    } 
+   
+    .header__subtitle { 
+        font-size: 16px; 
+        line-height: 1.25; 
+    } 
+}
