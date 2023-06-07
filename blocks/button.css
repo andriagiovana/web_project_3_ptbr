@@ -15,6 +15,7 @@
 }
 
 @media (max-width: 810px) {
+
    .button {
       font-size: 16px;
     }
@@ -27,7 +28,8 @@
 }
 
 @media screen and (max-width: 470px) {
+
    .button { 
-      font-size: 14px; 
+      font-size: 14px;
   } 
 }

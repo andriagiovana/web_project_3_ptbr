@@ -71,17 +71,17 @@
 @media (min-width: 681px) and (max-width: 866px) {
 
      .places-list__title { 
-        font-size: 42px; 
-        max-width: 340px; 
+        font-size: 42px;
+        max-width: 340px;
       } 
     
       .places-list__paragraph { 
-        font-size: 16px; 
+        font-size: 16px;
         padding-right: 10px;
       } 
     
       .places-list__image { 
-        max-width: 340px; 
+        max-width: 340px;
       } 
 }
 
@@ -105,20 +105,20 @@
   
       .places-list__item { 
           display: grid;
-          grid-template-columns: 1fr;  
+          grid-template-columns: 1fr;
           padding: 0;
           margin: 0;
       } 
   
       .places-list__title { 
-          font-size: 32px; 
+          font-size: 32px;
           padding-right: 16px;
           padding-left: 16px;
       } 
   
       .places-list__artist {
         padding-right: 16px;
-        padding-left: 16px; 
+        padding-left: 16px;
       }
 
       .places-list__image { 
@@ -128,7 +128,7 @@
 
       .places-list__content {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         padding-right: 16px;
         padding-left: 16px;
       }

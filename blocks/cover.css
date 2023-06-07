@@ -13,7 +13,7 @@
    position: relative;
    background-image: url("../imagens/campo.background.png");
    background-repeat: no-repeat;
-   background-position: center
+   background-position: center;
   }
   
   .overlay {
@@ -56,7 +56,7 @@
   
   @media (max-width: 810px) {
     .cover__title { 
-      font-size: 72px; 
+      font-size: 72px;
     } 
 
     .cover {
@@ -65,14 +65,16 @@
   }
 
   @media (min-width: 471px) and (max-width: 680px) {
+
     .cover__title {
       font-size: 48px;
     }
   }
 
   @media screen and (max-width: 470px) {
+
     .cover__title { 
-      font-size: 32px; 
+      font-size: 32px;
   } 
 
   .cover__container {

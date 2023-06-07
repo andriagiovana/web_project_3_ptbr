@@ -14,9 +14,10 @@
 }
 
 @media (max-width: 810px) {
+
        .photo-grid { 
-        grid-template-columns: 1fr 1fr; 
-        padding-top: 64px; 
+        grid-template-columns: 1fr 1fr;
+        padding-top: 64px;
       }  
 }
 
@@ -34,6 +35,6 @@
 
 @media screen and (max-width: 470px) {
     .photo-grid { 
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     } 
 }
