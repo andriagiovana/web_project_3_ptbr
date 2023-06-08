@@ -1,9 +1,10 @@
 .intro {
     display: flex;
     flex-direction: column;
+    column-gap: 75px;
     padding-left: 148px;
     padding-right: 304px;
-    margin: auto;
+    margin: 0;
   }
   
   .intro__title {
@@ -22,7 +23,8 @@
   }
   
   .intro__quote-author {
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
     font-size: 24px;
     line-height: 1.17;
     margin-top: 9px;

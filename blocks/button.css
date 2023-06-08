@@ -8,6 +8,7 @@
    line-height: 22px;
    width: fit-content;
    font-size: 18px;
+   margin: 0;
 }
 
 .button:hover {

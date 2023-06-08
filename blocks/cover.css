@@ -7,36 +7,33 @@
     z-index: 0;
 }
 
-.cover__container {
+ .cover__container {
    min-height: 600px;
    margin: 0 auto;
    position: relative;
    background-image: url("../imagens/campo.background.png");
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: center; 
+   padding-top: 100px;
   }
   
   .overlay {
     position: absolute;
-    background-color: #2A2C2F;
-    opacity: 0.3;
+    background-color: rgba(0, 0, 0, 0.5);
     transition: opacity 0.3s ease;
     width: 100%;
     height: 100%;
     top: 0;
-  }
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
- .cover__container:hover .overlay {
+  } 
+
+  .cover__container:hover .overlay {
     opacity: 0.8;
   } 
-  
-  .cover__text {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    padding-top: 100px;
-  }
 
   .cover__title {
     font-size: 92px;

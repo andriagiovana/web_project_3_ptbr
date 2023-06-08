@@ -9,6 +9,9 @@
     max-width: 270px;
     height: 70px;
     padding-top: 34px;
+    margin: 0;
+    padding-bottom: 90px; 
+
 }
 
 .header__title {
@@ -16,7 +19,8 @@
     text-align: center;
     line-height: 1;
     max-width: 793px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    margin: 0;
     font-weight: 900;
 }
 
@@ -26,12 +30,14 @@
     text-align: center;
     max-width: 720px;
     font-weight: 400;
-    margin-bottom: 64px;
+    padding-bottom: 64px;
+    margin: 0;
 }
 
 .header__image {
     max-width: 984px;
     width: 100%;
+    margin: 0;
 }
 
 @media (min-width: 471px) and (max-width: 680px) {
